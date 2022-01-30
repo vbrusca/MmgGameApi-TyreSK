@@ -4,13 +4,15 @@
  It is designed to plug into the MmgGameApiCs or MmgGameApiJava projects.
  
 [comment]: #sc1
-![Cover image](images/tyre_cs_sc1.png)
+![Cover image](storage/tyre_cs_sc1.png)
 
-[comment]: #sc1
-![Cover image](images/tyre_cs_sc2.png)
+[comment]: #sc2
+![Cover image](storage/tyre_cs_sc2.png)
 
-[comment]: #sc1
-![Cover image](images/tyre_java_sc1.png)
+[comment]: #sc3
+![Cover image](storage/tyre_java_sc1.png)
 
-[comment]: #sc1
-![Cover image](images/tyre_java_sc2.png)
+[comment]: #sc4
+![Cover image](storage/tyre_java_sc2.png)
+
+This project is a great example of using the game engine and demonstrates the major differences between the C# and Java platforms.
