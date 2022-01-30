@@ -5,6 +5,8 @@ It is designed to plug into the MmgGameApiCs or MmgGameApiJava projects.
  
 The game is an RPG that was built to run on the T-Mobile SideKick line of phone. As such it is tiny, 240x136, in size.
 You can use this project as an example of the game engine is use for a slightly more advanced implementation.
+
+This is a stable release and most screens have been tested. There may be some issue still. I'll have more work done on the project, if need be, in the near future.
  
 [comment]: #sc1
 ![Cover image](storage/tyre_cs_sc1.png)
