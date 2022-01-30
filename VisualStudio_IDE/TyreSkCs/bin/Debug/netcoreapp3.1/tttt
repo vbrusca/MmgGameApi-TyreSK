@@ -1,0 +1,405 @@
+AdjustedArgs: 
+Found platform: win
+This is Windows
+Found engine config file: ../../../cfg/engine_config_mmg_test_space.xml
+ErrorLog: Could not find file 'C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\engine_config_mmg_test_space.xml'.
+ErrorLog:    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at net.middlemind.MmgGameApiCs.MmgCore.GameSettingsImporter.RunImportGameSettings(String xmlFile) in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgCore\GameSettingsImporter.cs:line 37
+   at net.middlemind.MmgGameApiCs.MmgCore.GameSettingsImporter.ImportGameSettings(String xmlFile) in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgCore\GameSettingsImporter.cs:line 90
+Engine config load result: False
+Window Width: 862
+Window Height: 604
+Panel Width: 858
+Panel Height: 598
+Game Width: 854
+Game Height: 416
+GamePanel: WinWidth: 858
+GamePanel: WinHeight: 598
+GamePanel: GameWidth: 854
+GamePanel: GameHeight: 416
+TargetFPS: GameHeight: 30
+TestSpace.GamePanel.Constructor
+ScreenTest: Constructor
+ScreenTestMmgScreenData.Constructor
+ScreenTestMmg9Slice.Constructor
+ScreenTestMmgFont.Constructor
+ScreenTestMsgTextField.Constructor
+ScreenTestMmgBmp.Constructor
+ScreenTestMmgSound.Constructor
+ScreenTestMmgSprite.Constructor
+ScreenTestMmgBasicInput.Constructor
+ScreenTestMmgCfgFileEntryRead.Constructor
+ScreenTestMmgColor.Constructor
+ScreenTestMmgContainer.Constructor
+ScreenTestMmgLabelValuePair.Constructor
+ScreenTestMmgScrollHor.Constructor
+ScreenTestMmgScrollVert.Constructor
+ScreenTestMmgScrollHorVert.Constructor
+ScreenTestMmgRect.Constructor
+ScreenTestMmgPositionTween.Constructor
+ScreenTestMmgTextBlock.Constructor
+ScreenTestMmgCfgFileEntryWrite.Constructor
+ScreenTestMmgObj.Constructor
+ScreenTestMmgSpriteSheet.Constructor
+ScreenTestMmgBmpFont.Constructor
+ScreenTestMmgLoadingBar.Constructor
+ScreenTestMmgSizeTween.Constructor
+ScreenTestMmgSpriteSheet.Constructor
+===============LoadContent!!!!!
+
+GamePanel Window Width: 858
+GamePanel Window Height: 598
+GamePanel Offset X: 2
+GamePanel Offset Y: 3
+Calculate Scale X: Found X,Y Scale: 1.000183840749413, ResF: 32.00588290398122, ResI: 32, Diff: 0.005882903981216714, Count: 18
+
+--- MmgScreenData ---
+Screen Width: 858
+Screen Height: 598
+Game Width: 854
+Game Height: 416
+Game Offset X: 2
+Game Offset Y: 91
+Scale X: 1.000183840749413
+Scale Y: 1.000183840749413
+
+
+--- MmgFontData ---
+MmgFontData: Font Size: 14
+MmgFontData: Target Pixel Height (Unscaled): 22
+MmgFontData: Target Pixel Height (Scaled): 22
+
+FontHeight: 18, 14
+Gamepad hub prep is complete. State: Prepped: True Enabled: True
+Gamepad hub prep is complete. State: Prepped: True Enabled: True
+GamePanel: RunUnitTests: False
+TestSpace.Switching Game State To: SPLASH
+Hiding BLANK screen.
+Switching Game State To: SPLASH
+Showing SPLASH screen.
+ScreenSplash: LoadResources: ../../../cfg/class_config/screen_splash.txt
+ScreenSplash: LoadResources: ScreenSplash Logo is NOT null.
+ScreenSplash: LoadResources: ../../../cfg/drawable/logo_large.jpg
+ScreenSplash: Loadresources: 0
+System.Exception: GamePadHub: Gamepad poll failed!
+   at net.middlemind.MmgGameApiCs.MmgCore.GamePadHub.GetState() in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgCore\GamePadHub.cs:line 806
+   at net.middlemind.MmgGameApiCs.MmgCore.GamePadHubRunner.PollGamePad() in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgCore\GamePadHubRunner.cs:line 131
+TestSpace.Switching Game State To: LOADING
+Hiding SPLASH screen.
+Switching Game State To: LOADING
+Showing LOADING screen.
+Found auto_load file: jump1.wav Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\playable\auto_load\jump1.wav
+LoadingScreen: POS: 0 LEN: 39000 PRCT: 0 LR: False LC: False
+Found auto_load file: jump2.wav Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\playable\auto_load\jump2.wav
+LoadingScreen: POS: 1000 LEN: 39000 PRCT: 0.025641026 LR: False LC: False
+Found auto_load file: a_btn.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\a_btn.png
+LoadingScreen: POS: 0 LEN: 39000 PRCT: 0 LR: True LC: False
+Found auto_load file: blank_screen.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\blank_screen.png
+ByteArrayLength: 71462
+LoadingScreen: POS: 1000 LEN: 39000 PRCT: 0.025641026 LR: True LC: False
+FileName: jump1.wav
+Found auto_load file: b_btn.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\b_btn.png
+LoadingScreen: POS: 2000 LEN: 39000 PRCT: 0.051282052 LR: True LC: False
+Found auto_load file: Caeldera_22pt_black.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\Caeldera_22pt_black.png
+LoadingScreen: POS: 3000 LEN: 39000 PRCT: 0.07692308 LR: True LC: False
+Found auto_load file: Caeldera_22pt_white.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\Caeldera_22pt_white.png
+LoadingScreen: POS: 4000 LEN: 39000 PRCT: 0.102564104 LR: True LC: False
+Found auto_load file: cursor_hand_sm_right.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\cursor_hand_sm_right.png
+LoadingScreen: POS: 5000 LEN: 39000 PRCT: 0.12820514 LR: True LC: False
+Found auto_load file: cursor_hand_sm_up.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\cursor_hand_sm_up.png
+LoadingScreen: POS: 6000 LEN: 39000 PRCT: 0.15384616 LR: True LC: False
+Found auto_load file: dpad_down.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\dpad_down.png
+LoadingScreen: POS: 7000 LEN: 39000 PRCT: 0.17948718 LR: True LC: False
+Found auto_load file: dpad_left.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\dpad_left.png
+LoadingScreen: POS: 8000 LEN: 39000 PRCT: 0.20512821 LR: True LC: False
+Found auto_load file: dpad_right.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\dpad_right.png
+LoadingScreen: POS: 9000 LEN: 39000 PRCT: 0.23076923 LR: True LC: False
+Found auto_load file: dpad_up.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\dpad_up.png
+LoadingScreen: POS: 10000 LEN: 39000 PRCT: 0.25641027 LR: True LC: False
+Found auto_load file: exit_game.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\exit_game.png
+LoadingScreen: POS: 11000 LEN: 39000 PRCT: 0.2820513 LR: True LC: False
+Found auto_load file: footer_url.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\footer_url.png
+LoadingScreen: POS: 12000 LEN: 39000 PRCT: 0.30769232 LR: True LC: False
+Found auto_load file: game_sub_title.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\game_sub_title.png
+LoadingScreen: POS: 13000 LEN: 39000 PRCT: 0.33333334 LR: True LC: False
+Found auto_load file: game_title.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\game_title.png
+LoadingScreen: POS: 14000 LEN: 39000 PRCT: 0.35897437 LR: True LC: False
+Found auto_load file: LargeIcon.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\LargeIcon.png
+LoadingScreen: POS: 15000 LEN: 39000 PRCT: 0.3846154 LR: True LC: False
+Found auto_load file: lg_logo2.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\lg_logo2.png
+LoadingScreen: POS: 16000 LEN: 39000 PRCT: 0.41025642 LR: True LC: False
+Found auto_load file: loading.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\loading.png
+LoadingScreen: POS: 17000 LEN: 39000 PRCT: 0.43589744 LR: True LC: False
+Found auto_load file: logo.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\logo.png
+LoadingScreen: POS: 18000 LEN: 39000 PRCT: 0.46153846 LR: True LC: False
+Found auto_load file: logo2.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\logo2.png
+LoadingScreen: POS: 19000 LEN: 39000 PRCT: 0.4871795 LR: True LC: False
+Found auto_load file: popup_window_base.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\popup_window_base.png
+LoadingScreen: POS: 20000 LEN: 39000 PRCT: 0.51282054 LR: True LC: False
+Found auto_load file: popup_window_base_24.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\popup_window_base_24.png
+LoadingScreen: POS: 21000 LEN: 39000 PRCT: 0.53846157 LR: True LC: False
+Found auto_load file: popup_window_base_64.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\popup_window_base_64.png
+LoadingScreen: POS: 22000 LEN: 39000 PRCT: 0.5641026 LR: True LC: False
+Found auto_load file: scroll_bar_down.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_down.png
+LoadingScreen: POS: 23000 LEN: 39000 PRCT: 0.5897436 LR: True LC: False
+Found auto_load file: scroll_bar_down_sm.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_down_sm.png
+LoadingScreen: POS: 24000 LEN: 39000 PRCT: 0.61538464 LR: True LC: False
+Found auto_load file: scroll_bar_left.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_left.png
+LoadingScreen: POS: 25000 LEN: 39000 PRCT: 0.64102566 LR: True LC: False
+Found auto_load file: scroll_bar_left_sm.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_left_sm.png
+LoadingScreen: POS: 26000 LEN: 39000 PRCT: 0.6666667 LR: True LC: False
+Found auto_load file: scroll_bar_right.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_right.png
+LoadingScreen: POS: 27000 LEN: 39000 PRCT: 0.6923077 LR: True LC: False
+Found auto_load file: scroll_bar_right_sm.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_right_sm.png
+LoadingScreen: POS: 28000 LEN: 39000 PRCT: 0.71794873 LR: True LC: False
+Found auto_load file: scroll_bar_slider.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_slider.png
+LoadingScreen: POS: 29000 LEN: 39000 PRCT: 0.74358976 LR: True LC: False
+Found auto_load file: scroll_bar_slider_sm.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_slider_sm.png
+LoadingScreen: POS: 30000 LEN: 39000 PRCT: 0.7692308 LR: True LC: False
+Found auto_load file: scroll_bar_up.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_up.png
+LoadingScreen: POS: 31000 LEN: 39000 PRCT: 0.7948718 LR: True LC: False
+Found auto_load file: scroll_bar_up_sm.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\scroll_bar_up_sm.png
+LoadingScreen: POS: 32000 LEN: 39000 PRCT: 0.82051283 LR: True LC: False
+Found auto_load file: SmallIcon.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\SmallIcon.png
+LoadingScreen: POS: 33000 LEN: 39000 PRCT: 0.84615386 LR: True LC: False
+Found auto_load file: SplashScreen.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\SplashScreen.png
+LoadingScreen: POS: 34000 LEN: 39000 PRCT: 0.8717949 LR: True LC: False
+Found auto_load file: start_game.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\start_game.png
+LoadingScreen: POS: 35000 LEN: 39000 PRCT: 0.8974359 LR: True LC: False
+Found auto_load file: tyre_large_icon2.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\tyre_large_icon2.png
+LoadingScreen: POS: 36000 LEN: 39000 PRCT: 0.9230769 LR: True LC: False
+Found auto_load file: tyre_small_icon2.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\tyre_small_icon2.png
+LoadingScreen: POS: 37000 LEN: 39000 PRCT: 0.94871795 LR: True LC: False
+Found auto_load file: tyre_splash_qvga.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\tyre_splash_qvga.png
+LoadingScreen: POS: 38000 LEN: 39000 PRCT: 0.974359 LR: True LC: False
+Found auto_load file: tyre_splash_wqvga.png Path: C:\Users\variable\Documents\GitHub\TyreSK\VisualStudio_IDE\TyreSkCs\cfg\drawable\auto_load\tyre_splash_wqvga.png
+LoadingScreen: POS: 39000 LEN: 39000 PRCT: 1 LR: True LC: False
+LoadingScreen: POS: 39000 LEN: 39000 PRCT: 1 LR: True LC: True
+ByteArrayLength: 30262
+FileName: jump2.wav
+ByteArrayLength: 5193
+FileName: a_btn.png
+ByteArrayLength: 702
+FileName: blank_screen.png
+ByteArrayLength: 5247
+FileName: b_btn.png
+ByteArrayLength: 9758
+FileName: Caeldera_22pt_black.png
+ByteArrayLength: 9693
+FileName: Caeldera_22pt_white.png
+ByteArrayLength: 1497
+FileName: cursor_hand_sm_right.png
+ByteArrayLength: 1502
+FileName: cursor_hand_sm_up.png
+ByteArrayLength: 1301
+FileName: dpad_down.png
+ByteArrayLength: 1236
+FileName: dpad_left.png
+ByteArrayLength: 1265
+FileName: dpad_right.png
+ByteArrayLength: 1212
+FileName: dpad_up.png
+ByteArrayLength: 3256
+FileName: exit_game.png
+ByteArrayLength: 1767
+FileName: footer_url.png
+ByteArrayLength: 2561
+FileName: game_sub_title.png
+ByteArrayLength: 3664
+FileName: game_title.png
+ByteArrayLength: 599
+FileName: LargeIcon.png
+ByteArrayLength: 2052
+FileName: lg_logo2.png
+ByteArrayLength: 9126
+FileName: loading.png
+ByteArrayLength: 1500
+FileName: logo.png
+ByteArrayLength: 711
+FileName: logo2.png
+ByteArrayLength: 3061
+FileName: popup_window_base.png
+ByteArrayLength: 968
+FileName: popup_window_base_24.png
+ByteArrayLength: 1275
+FileName: popup_window_base_64.png
+ByteArrayLength: 820
+FileName: scroll_bar_down.png
+ByteArrayLength: 467
+FileName: scroll_bar_down_sm.png
+ByteArrayLength: 882
+FileName: scroll_bar_left.png
+ByteArrayLength: 479
+FileName: scroll_bar_left_sm.png
+ByteArrayLength: 846
+FileName: scroll_bar_right.png
+ByteArrayLength: 453
+FileName: scroll_bar_right_sm.png
+ByteArrayLength: 356
+FileName: scroll_bar_slider.png
+ByteArrayLength: 292
+FileName: scroll_bar_slider_sm.png
+ByteArrayLength: 806
+FileName: scroll_bar_up.png
+ByteArrayLength: 453
+FileName: scroll_bar_up_sm.png
+ByteArrayLength: 355
+FileName: SmallIcon.png
+ByteArrayLength: 3303
+FileName: SplashScreen.png
+ByteArrayLength: 3595
+FileName: start_game.png
+ByteArrayLength: 555
+FileName: tyre_large_icon2.png
+ByteArrayLength: 347
+FileName: tyre_small_icon2.png
+ByteArrayLength: 32157
+FileName: tyre_splash_qvga.png
+ByteArrayLength: 48225
+FileName: tyre_splash_wqvga.png
+TestSpace.Switching Game State To: GAME_SCREEN_02
+Hiding LOADING screen.
+Hiding LOADING screen DONE.
+Switching Game State To: GAME_SCREEN_02
+Showing GAME_SCREEN_02 screen.
+ScreenTestMmg9Slice.LoadResources
+HasKeyBeenPressed: True Key: Right KeyDown: True
+ProcessDpadPress: 3
+ScreenTestMmg9Slice.ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ScreenTestMmg9Slice.ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ScreenTestMmg9Slice.ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ScreenTestMmg9Slice.ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ScreenTestMmg9Slice.ProcessDpadPress: 3
+ProcessKeyPress
+HasKeyBeenReleased: True Key: Right
+ProcessDpadClick: 3
+ScreenTestMmg9Slice.ProcessDpadClick: 3
+ProcessKeyClick
+ScreenTestMmg9Slice.ProcessKeyClick
+ProcessDpadRelease: 3
+ScreenTestMmg9Slice.ProcessDpadRelease: 3
+TestSpace.Switching Game State To: GAME_SCREEN_03
+Hiding GAME_SCREEN_02 screen.
+Switching Game State To: GAME_SCREEN_03
+Showing GAME_SCREEN_03 screen.
+ScreenTestMmgFont.LoadResources
+ProcessKeyRelease
+HasKeyBeenPressed: True Key: Right KeyDown: True
+ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ProcessKeyPress
+HasKeyBeenReleased: True Key: Right
+ProcessDpadClick: 3
+ProcessKeyClick
+ProcessDpadRelease: 3
+ScreenTestMmgFont.ProcessDpadRelease: 3
+TestSpace.Switching Game State To: GAME_SCREEN_04
+Hiding GAME_SCREEN_03 screen.
+Switching Game State To: GAME_SCREEN_04
+Showing GAME_SCREEN_04 screen.
+ScreenTestMsgTextField.LoadResources
+ProcessKeyRelease
+HasKeyBeenPressed: True Key: Right KeyDown: True
+ProcessDpadPress: 3
+ScreenTestMsgTextField.ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ScreenTestMsgTextField.ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ScreenTestMsgTextField.ProcessDpadPress: 3
+ProcessKeyPress
+ProcessDpadPress: 3
+ScreenTestMsgTextField.ProcessDpadPress: 3
+ProcessKeyPress
+HasKeyBeenReleased: True Key: Right
+ProcessDpadClick: 3
+ScreenTestMsgTextField.ProcessDpadClick: 3
+ProcessKeyClick
+ProcessDpadRelease: 3
+ScreenTestMsgTextField.ProcessDpadRelease: 3
+TestSpace.Switching Game State To: GAME_SCREEN_05
+Hiding GAME_SCREEN_04 screen.
+Switching Game State To: GAME_SCREEN_05
+Showing GAME_SCREEN_05 screen.
+ScreenTestMmgBmp.LoadResources
+BMP: 0 key: a_btn.png
+BMP: 1 key: blank_screen.png
+BMP: 2 key: b_btn.png
+BMP: 3 key: Caeldera_22pt_black.png
+BMP: 4 key: Caeldera_22pt_white.png
+BMP: 5 key: cursor_hand_sm_right.png
+BMP: 6 key: cursor_hand_sm_up.png
+BMP: 7 key: dpad_down.png
+BMP: 8 key: dpad_left.png
+BMP: 9 key: dpad_right.png
+BMP: 10 key: dpad_up.png
+BMP: 11 key: exit_game.png
+BMP: 12 key: footer_url.png
+BMP: 13 key: game_sub_title.png
+BMP: 14 key: game_title.png
+BMP: 15 key: LargeIcon.png
+BMP: 16 key: lg_logo2.png
+BMP: 17 key: loading.png
+BMP: 18 key: logo.png
+BMP: 19 key: logo2.png
+BMP: 20 key: popup_window_base.png
+BMP: 21 key: popup_window_base_24.png
+BMP: 22 key: popup_window_base_64.png
+BMP: 23 key: scroll_bar_down.png
+BMP: 24 key: scroll_bar_down_sm.png
+BMP: 25 key: scroll_bar_left.png
+BMP: 26 key: scroll_bar_left_sm.png
+BMP: 27 key: scroll_bar_right.png
+BMP: 28 key: scroll_bar_right_sm.png
+BMP: 29 key: scroll_bar_slider.png
+BMP: 30 key: scroll_bar_slider_sm.png
+BMP: 31 key: scroll_bar_up.png
+BMP: 32 key: scroll_bar_up_sm.png
+BMP: 33 key: SmallIcon.png
+BMP: 34 key: SplashScreen.png
+BMP: 35 key: start_game.png
+BMP: 36 key: tyre_large_icon2.png
+BMP: 37 key: tyre_small_icon2.png
+BMP: 38 key: tyre_splash_qvga.png
+BMP: 39 key: tyre_splash_wqvga.png
+SND: 0 key: jump1.wav
+SND: 1 key: jump2.wav
+ErrorLog: Object reference not set to an instance of an object.
+ErrorLog:    at net.middlemind.MmgGameApiCs.MmgTestSpace.ScreenTestMmgBmp.LoadResources() in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgTestSpace\ScreenTestMmgBmp.cs:line 178
+   at net.middlemind.MmgGameApiCs.MmgTestSpace.GamePanel.SwitchGameState(GameStates g) in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgTestSpace\GamePanel.cs:line 644
+   at net.middlemind.MmgGameApiCs.MmgTestSpace.ScreenTestMmgTextField.ProcessDpadRelease(Int32 dir) in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgTestSpace\ScreenTestMmgTextField.cs:line 282
+   at net.middlemind.MmgGameApiCs.MmgCore.GamePanel.ProcessDpadRelease(Int32 dir) in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgCore\GamePanel.cs:line 749
+   at net.middlemind.MmgGameApiCs.MmgCore.GamePanel.ProcessAllPlayer1Input() in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgCore\GamePanel.cs:line 2182
+   at net.middlemind.MmgGameApiCs.MmgCore.GamePanel.UpdateGame() in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgCore\GamePanel.cs:line 2327
+   at net.middlemind.MmgGameApiCs.MmgCore.GamePanel.Update(GameTime gameTime) in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgCore\GamePanel.cs:line 1305
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at net.middlemind.MmgGameApiCs.MmgTestSpace.MmgTestScreens.AltMain(String[] args) in C:\Users\variable\Documents\GitHub\MmgGameApiCs\MmgGameApiCs\src\net\middlemind\MmgGameApiCs\MmgTestSpace\MmgTestScreens.cs:line 521

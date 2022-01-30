@@ -21,3 +21,28 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+build/built-jar.properties
+nbproject/project.properties
+nbproject/private/private.xml
+NetBeans_IDE/build/built-jar.properties
+NetBeans_IDE/build/classes/.netbeans_automatic_build
+NetBeans_IDE/build/classes/.netbeans_update_resources
+NetBeans_IDE/nbproject/private/private.properties
+NetBeans_IDE/build/built-jar.properties
+NetBeans_IDE/nbproject/private/private.xml
+/NetBeans_IDE/TyreSkJava/nbproject/private/
+/NetBeans_IDE/TyreSkJava/storage/original_project/Tyre/nbproject/private/
+/NetBeans_IDE/TyreSkJava/build/
+/NetBeans_IDE/TyreSkJava/dist/
+NetBeans_IDE/TyreSkJava/nbproject/project.properties
+VisualStudio_IDE/TyreSkCs/.vs/TyreSkCs/v16/.suo
+VisualStudio_IDE/TyreSkCs/bin/Debug/netcoreapp3.1/TyreSkCs.dll
+VisualStudio_IDE/TyreSkCs/bin/Debug/netcoreapp3.1/TyreSkCs.pdb
+VisualStudio_IDE/TyreSkCs/obj/Debug/netcoreapp3.1/TyreSkCs.dll
+VisualStudio_IDE/TyreSkCs/obj/Debug/netcoreapp3.1/TyreSkCs.pdb
+VisualStudio_IDE/TyreSkCs/.vs/TyreSkCs/v16/.suo
+VisualStudio_IDE/TyreSkCs/bin/Debug/netcoreapp3.1/TyreSkCs.dll
+VisualStudio_IDE/TyreSkCs/bin/Debug/netcoreapp3.1/TyreSkCs.dll
+VisualStudio_IDE/TyreSkCs/bin/Debug/netcoreapp3.1/TyreSkCs.pdb
+VisualStudio_IDE/TyreSkCs/obj/Debug/netcoreapp3.1/TyreSkCs.dll
+VisualStudio_IDE/TyreSkCs/obj/Debug/netcoreapp3.1/TyreSkCs.pdb

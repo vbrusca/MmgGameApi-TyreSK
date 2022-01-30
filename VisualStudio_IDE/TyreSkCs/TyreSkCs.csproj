@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <RootNamespace>com.middlemindgames.TyreSK</RootNamespace>
+    <StartupObject>com.middlemindgames.TyreSkNew.TyreSkMmg</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MmgGameApiCs\MmgGameApiCs\MmgGameApiCs.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Eds3MainLib">
+      <HintPath>libs\Eds3MainLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib">
+      <HintPath>libs\SharpZipLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

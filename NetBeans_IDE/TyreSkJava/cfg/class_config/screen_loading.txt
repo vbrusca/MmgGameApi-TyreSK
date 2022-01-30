@@ -1,0 +1,14 @@
+bmpLogo->logo_large2.png
+
+loadingLogoSlowDown=0
+
+loadingLogoScale=1.0
+loadingLogoOffsetY=-20
+#loadingLogoOffsetX=0
+#loadingLogoPosY=0
+#loadingLogoPosX=0
+
+#loadingBarOffsetY=0
+loadingBarOffsetX=-2
+loadingBarPosY=95
+#loadingBarPosX=0
