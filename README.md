@@ -8,6 +8,9 @@ You can use this project as an example of the game engine is use for a slightly 
 
 This is a stable release and most screens have been tested. There may be some issue still. I'll have more work done on the project, if need be, in the near future.
 
+Related to project:
+[*Introduction to Video Game Engine Development*](https://github.com/Apress/introduction-video-game-engine-development)
+
 Controls: A = submit, B = back, D-pad = movement
 
 Close the window to exit and save. Make sure you're out of any key battles just to be safe.
