@@ -11,11 +11,14 @@ This is a stable release and most screens have been tested. There may be some is
 Related to project:
 [*Introduction to Video Game Engine Development*](https://github.com/Apress/introduction-video-game-engine-development)
 
-Controls: A = submit, B = back, D-pad = movement
+You need to have the related project setup as a local project dependency or library dependency.
+
+# Controls: 
+A = submit, B = back, D-pad = movement
 
 Close the window to exit and save. Make sure you're out of any key battles just to be safe.
 
-Screen Shots:
+# Screen Shots:
 
 [comment]: #sc1
 ![Cover image](storage/tyre_cs_sc1.png)
